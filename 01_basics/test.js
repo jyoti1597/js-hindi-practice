@@ -1,1 +1,1 @@
-console.log("jyoti");
+console.log("jyoti");// this is basics to print code in terminal
