@@ -1,0 +1,12 @@
+{
+  "name": "js-hindi-practice",
+  "version": "1.0.0",
+  "description": "A JavaScript practice repository for Hindi JS course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["javascript", "practice", "hindi"],
+  "author": "",
+  "license": "ISC"
+}
