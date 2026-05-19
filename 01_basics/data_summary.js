@@ -42,7 +42,10 @@ const myFunc = function() {
 
 // find the type of data
 
-console.log(typeof score) // Output: number
+console.log(typeof heros) // Output: object
 
 
 // in return all they give object as a type of data
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
