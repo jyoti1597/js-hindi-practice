@@ -49,3 +49,28 @@ console.log(typeof heros) // Output: object
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//stack(primitive) - variable get, Heap(non-primitive)- it changes on original value 
+
+
+let myYoutubename = "jyotichilwal"
+let anotherName = myYoutubename
+
+anotherName = "jyoti"
+
+
+console.log(myYoutubename) // Output: jyotichilwalanotherName = "jyoti"
+console.log(anotherName) // Output: jyoti
+
+let userOne = {
+    email : "jyoti@mail.com",
+    upi : "jyoti@upi"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "user@mail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
