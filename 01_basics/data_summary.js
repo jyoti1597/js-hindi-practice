@@ -51,7 +51,7 @@ console.log(typeof heros) // Output: object
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 
-//stack(primitive) - variable get, Heap(non-primitive)- it changes on original value 
+//stack(primitive) - variable get, Heap(non-primitive)- it changes on original value , get variable and reference will be same and it will change on original value
 
 
 let myYoutubename = "jyotichilwal"
