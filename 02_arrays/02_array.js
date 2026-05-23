@@ -21,3 +21,7 @@ const dc_heros = [
 
 const allHeros = marvel_heros.concat(dc_heros);
 console.log(allHeros);// does not change the original array, it returns a new array with the merged elements
+
+
+const all_new_heros = [...marvel_heros,...dc_heros];
+console.log(all_new_heros);// does not change the original array, it returns a new array with the merged elements
