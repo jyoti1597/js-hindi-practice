@@ -62,3 +62,22 @@ console.log(Object.entries(tinderUser));
 // loop through during values get that may be not exit some times in object and we want to avoid the error of undefined
 
 console.log(tinderUser.hasOwnProperty("name")); // this is the way to check the property is exist in object or not. result come in boolean value true or false
+
+
+// object de-structuring and json api intro
+
+const course = {
+    coursename : "js in hindi",
+    price:"999",
+    courseInstructor: "hitesh"
+}
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+//console.log(courseInstructor);
+console.log(instructor);
+
+
+// api
+// we api in object and array both forms
