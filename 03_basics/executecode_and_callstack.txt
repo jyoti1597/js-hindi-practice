@@ -53,3 +53,10 @@ num2-> 5
 total -> 15(globalexecution in return)
 
 
+
+
+
+
+//------------------call stack---------------------//
+
+lifo work in this last in first out
