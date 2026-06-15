@@ -24,3 +24,5 @@ for (const key in programming) {
 // for (const key in map) {
 //     console.log(key);
 // }
+
+// for in  shows key

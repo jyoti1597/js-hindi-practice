@@ -42,3 +42,6 @@ const myObject = {
 //     console.log(key, ':-', value);
     
 // }
+
+
+// for of take direct value
