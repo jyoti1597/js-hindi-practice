@@ -24,6 +24,7 @@ if (Object.keys(emptyObj).length === 0) {
 }
 
 // Nullish Coalescing Operator (??): null undefined
+// it check safety first
 
 let val1;
 // val1 = 5 ?? 10
