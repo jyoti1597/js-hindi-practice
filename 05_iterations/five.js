@@ -1,3 +1,7 @@
+// it is callback function. function run inside array. as parapter get value
+
+
+
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach( function (val){
