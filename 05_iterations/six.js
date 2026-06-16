@@ -1,3 +1,5 @@
+// foreach not return value
+
 // const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
@@ -10,9 +12,15 @@
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+// const newNums = myNums.filter( (num) = > num >4);
+
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )
+// inside filter we get  callback function and each value will be acess than we have give condition
+// return values
+
+
 
 // const newNums = []
 
@@ -20,7 +28,7 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //     if (num > 4) {
 //         newNums.push(num)
 //     }
-// } )
+// } ) 
 
 // console.log(newNums);
 
@@ -36,6 +44,8 @@ const books = [
     { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
+
+  
 
   let userBooks = books.filter( (bk) => bk.genre === 'History')
 
