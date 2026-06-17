@@ -1,3 +1,8 @@
+//const sumWithInitial = array1.reduce((accumulator , currentValue) => accumulator +currentValue, initialValue);
+//acumulator - empty variable 
+// currentValue - array value
+// first time loop run then accumulator value will 0 which is initial value. secind time accumulaator _ currentvalue that is like 0+ 1= 1, 1+ 2 (array value) = 3 that assign again in accumlator first.
+
 const myNums = [1, 2, 3]
 
 // const myTotal = myNums.reduce(function (acc, currval) {
